@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './styles.css'
 
 const Form = () => {
   const [postData, setPostData] = useState({
@@ -15,11 +16,11 @@ const Form = () => {
 
   return (
     <div>
-      <form onSubmit={ handleSubmit }>
+      <form className="wrap-form" onSubmit={ handleSubmit }>
         <input 
           type="text" 
           name="criador" 
-          placeholder="Cridor" 
+          placeholder="Criador" 
           value={ postData.creator } 
           onChange={ ({ target }) => setPostData({ ...postData, creator: target.value }) }
         />
@@ -30,7 +31,7 @@ const Form = () => {
           value={ postData.title } 
           onChange={ ({ target }) => setPostData({ ...postData, title: target.value }) }
         />
-        <input 
+        <input
           type="text" 
           name="mensagem" 
           placeholder="mensagem" 
@@ -45,6 +46,7 @@ const Form = () => {
           onChange={ ({ target }) => setPostData({ ...postData, tags: target.value }) }
         />
         <button type="submit">Enviar</button>
+        <button type="submit">Limpar</button>
       </form>
     </div>
   );
