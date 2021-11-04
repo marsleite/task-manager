@@ -1,0 +1,1 @@
+// reducer principal para o estado da postagem
