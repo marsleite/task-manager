@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Desenvolvimento do projeto Task Manager
 
 Este Projeto está em desenvolvimento com a lib React.Js + node.js + express + Mongodb
 
