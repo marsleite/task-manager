@@ -4,8 +4,8 @@ Este Projeto está em desenvolvimento com a lib React.Js + node.js + express + M
 
 ## Dependências do projeto
 
-Frontend: axios, redux, redux thunk, filebase64, Tailwind ui\
-Backend: Express, mongoose
+Frontend: axios, redux, redux thunk, filebase64, tailwind ui\
+Backend: express, mongoose, cors, nodemon
 
 ### `yarn start`
 
